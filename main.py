@@ -1,14 +1,12 @@
 import pandas as pd
 import yfinance as yf
 import streamlit as st
-import base64
 
 nasdaq_tickers = pd.read_excel('name.xlsx')  
 tickers_list = nasdaq_tickers['Symbol']
 tickers_data = {}
 
 st.header('MarketData')
-
 
 data_of_interest = ['symbol','longName','website','targetMeanPrice','recommendationMean','regularMarketDayLow','regularMarketDayHigh']
 df = pd.DataFrame(columns=data_of_interest)
@@ -23,13 +21,11 @@ if data_file is not None:
     st.dataframe(nasdaq_tickers['Symbol'])
     selected_ticker = nasdaq_tickers['Symbol'].tolist()
 
-
 def get_data_of_interest(data):
     value_of_interest = {}
     for name_of_interest in data_of_interest:
         value_of_interest[name_of_interest] = data.get(name_of_interest)        
     return value_of_interest
-
 
 @st.cache
 def convert_df(df):
@@ -49,4 +45,3 @@ if st.button('Get Data') and selected_ticker:
     file_name='large_df.csv',
     mime='text/csv',
     )
-
