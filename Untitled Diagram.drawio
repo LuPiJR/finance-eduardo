@@ -1,1 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T20:18:21.940Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="50cwYUqK050ibVvVRtIn" type="github"><diagram name="Page-1" id="DIb6scsuLInHiG2c71XE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-17T20:28:23.379Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="F5BUU8MCdbg21ToJrfc0" version="21.0.6" type="github">
+  <diagram name="Page-1" id="DIb6scsuLInHiG2c71XE">
+    <mxGraphModel dx="756" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="prJgpdjlMFFDP38F3LlE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="prJgpdjlMFFDP38F3LlE-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="prJgpdjlMFFDP38F3LlE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="prJgpdjlMFFDP38F3LlE-5" target="prJgpdjlMFFDP38F3LlE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prJgpdjlMFFDP38F3LlE-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="prJgpdjlMFFDP38F3LlE-2" value="R" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="prJgpdjlMFFDP38F3LlE-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="prJgpdjlMFFDP38F3LlE-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="179.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="prJgpdjlMFFDP38F3LlE-9" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;TIA&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="130" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="prJgpdjlMFFDP38F3LlE-12" value="" style="perimeter=ellipsePerimeter;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.instruments.oscilloscope;" vertex="1" parent="1">
+          <mxGeometry x="630" y="135" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="prJgpdjlMFFDP38F3LlE-14" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=ac;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="prJgpdjlMFFDP38F3LlE-15" value="RIGOL DS1104 Z Plus" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="230" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="prJgpdjlMFFDP38F3LlE-16" value="Hewlett Packard 3314A&lt;br&gt;&amp;nbsp;Function Generator" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="210" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
